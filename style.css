@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #025677;
+  color: #fff;
+}
+.container {
+  padding: 30px 50px;
+}
+#search-form {
+  width: 30%;
+  margin: 0 auto;
+  position: relative;
+}
+#search-form input {
+    width: 468px;
+    font-size: 20px;
+    padding: 5px 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    border-color: #06f0a2;
+    text-transform: capitalize;
+    margin-left: -96px;
+    color: #9206f0;
+}
+
+i.fas.fa-microphone {
+    margin-left: 75px;
+    color: lightseagreen;
+    font-size: 22px;
+}
+#search-form button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 3rem;
+  text-align: center;
+  font-size: 1.75rem;
+  cursor: pointer;
+  color: #333;
+}
+.footer-text,a {
+    margin-top: 355px;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Font Awesome 5 Free';
+}
+.information a{
+    text-decoration: none;
+}
+.information a:hover{
+    color: #06f0a2;
+}
+@media (max-width: 1200px) {
+  #search-form {
+       width: 50%; 
+    }
+    i.fas.fa-microphone {
+        margin-left: -195px;
+    }
+}
+
+@media (max-width: 768px) {
+  .container {
+       padding: 30px 35px; 
+    }
+  .fas.fa-microphone {
+        margin-left: -195px;
+    }    
+  #search-form {
+       width: 100%; 
+    }
+    p.information {
+        margin-left: -205px;
+    }
+}
